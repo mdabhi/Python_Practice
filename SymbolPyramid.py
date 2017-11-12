@@ -20,6 +20,6 @@ n = int(input().strip())
 i = 1
 j = n-1
 
-for i in range(1,n+1,1):
+for i in range(1, n+1, 1):
     print(' '*j + '*'*i)
     j = j-1
